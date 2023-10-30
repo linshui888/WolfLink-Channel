@@ -3,7 +3,7 @@ on:
     branches:
       - master
 
-name: TpaFrom v1.0
+name: testv1.0
 
 jobs:
   build:
@@ -25,5 +25,5 @@ jobs:
     - name: Upload JAR file
       uses: actions/upload-artifact@v2
       with:
-        name: TpaFrom v1.0
+        name: testv1.0
         path: target/*.jar
